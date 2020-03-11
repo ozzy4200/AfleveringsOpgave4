@@ -58,5 +58,9 @@ namespace AfleveringsOpgave4.Model
 
             }
         }
+        public override string ToString()
+        {
+            return $"Titel: {Titel}, Forfatter: {Forfatter}, Isbn: {Isbn13}, Sidetal:{Sidetal}";
+        }
     }
 }
